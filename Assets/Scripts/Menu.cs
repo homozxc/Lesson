@@ -20,9 +20,7 @@ public class Menu : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) && _letterPanel.activeSelf == false)
-        {
             Pause();
-        }
     }
 
     public void LoadLevel(string name)
